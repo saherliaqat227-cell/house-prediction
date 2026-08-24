@@ -111,9 +111,7 @@ model, feature_columns = load_prediction_files()
 # LOAD DATASET
 # ---------------------------------------------------
 
-df = pd.read_csv(
-    r"C:\Users\Administrator\Downloads\House_Rent_Dataset.csv"
-)
+df = pd.read_csv("House_Rent_Dataset.csv")
 
 
 # ---------------------------------------------------
